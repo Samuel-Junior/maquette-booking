@@ -1,0 +1,73 @@
+body{
+    background-color: rgba(0, 0, 0, 0.808);
+    margin-left: 5%;
+}
+main{
+    display: flex;
+    justify-content: center;
+}
+.contain{
+    display: flex;
+    justify-content: flex-start;
+    margin: 0%;
+    height: 100%;
+    width: 100%;
+}
+div{
+    display: flex;
+    flex-wrap:wrap ;
+    height: 500px;
+    width: 80%;
+    margin: 100px;
+    justify-content: center;
+    margin-top: 0%;
+    margin-bottom: 0;
+}
+figure{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background-image: url("images/au_coeur.jpg");
+    background-position: bottom;
+    height: 200px;
+    width: 250px;
+    border: 3px rgb(0, 0, 0) solid;
+    border-radius: 15px;
+    box-shadow: rgba(255, 255, 255, 0.116) 1px 1px 3px 3px ;
+
+}
+figcaption{
+    padding-left: 5%;
+    background-color: rgb(24, 22, 22);
+    height: 40%;
+    width: 95%;
+    border-radius: 0 0 10px 10px;
+    line-height: 5px;
+    \002605
+    
+}
+p{
+    color: rgba(255, 255, 255, 0.918);
+    font-size: medium;
+}
+.two{
+    color: rgb(192, 191, 189);
+    font-size: small;
+}
+h2{
+    margin-left: 14%;
+    color: white;
+}
+h3{
+    margin-left: 14%;
+    color: white;
+    
+}
+.bleu{
+    color: #0065FC;
+}
+.fa-star:hover{
+    color: #0065FC;
+    
+    
+}
